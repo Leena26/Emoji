@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    background-color: beige;
+}
+
+.emoji-face{
+    width: 200px;
+    height: 200px;
+    background-color: #f2dd68;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.eye1{
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    border-radius: 47%;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.eye2{
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    border-radius: 47%;
+    position: absolute;
+    top: 60px;
+    left: 140px;
+}
+
+.mouth{
+    height: 60px;
+    width: 120px;
+    background-color: #a73411;
+    border-radius:0 0 90px 90px;
+    position: absolute;
+    top:110px;
+    left:40px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue{
+    width: 130px;
+    height:70px;
+    background-color: #e25d5d;
+    position: absolute;
+    top: 30px;
+    right:-5px;
+    border-radius: 90px 90px 0 0;
+}
+
+.mouth-shock{
+    height: 60px;
+    width: 60px;
+    background-color: #000000;
+    border-radius:50%;
+    position: absolute;
+    top:110px;
+    left:70px;
+}
+
+.mouth-speechless{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    left: 50px;
+    top: 130px;
+    position: absolute;
+}
+
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+.emoji-face{
+    float: left;
+    margin-left: 20px;
+}
+
+h1{
+   text-align:center;
+}
+
+.emoji-face:hover{
+    transform: scale(1.25);
+}
